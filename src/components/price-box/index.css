@@ -1,0 +1,6 @@
+.price-box--container {
+    background-color: var(--main-backround-color);
+    color: var(--main-font-color);
+    padding: 2rem;
+    max-width: 40%;
+}
