@@ -1,13 +1,20 @@
+.results-footer--container {
+    background-color: var(--result-text-color);
+}
+
 .results-footer--justify-info {
     display: flex;
     justify-content: space-around;
 }
-
+.results-footer--justify-footer{
+    display: flex;
+    justify-content: space-between;
+}
 
 /* i put the common props in a wide selector (this could be a sass's mixin too...) */
 button[class^="results-footer--button"] {
     color: var(--main-font-color);
-    padding: .3rem 1.5rem;
+    padding: .5rem 1.5rem;
     margin: 0 .5rem;
     font-weight: 800;
     border: none;
@@ -17,10 +24,13 @@ button[class^="results-footer--button"] {
 button[class$="primary"] {
     background-color: var(--primary-button-color);
     font-size: 1rem;
+    margin: 0 .2rem 0 0;
     width: 70%;
 }
 
 button[class$="secondary"] {
     background-color: var(--secondary-button-color);
+    width: 30%;
+    margin: 0 0 0 .2rem;
     font-size: .7rem;
 }

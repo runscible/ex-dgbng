@@ -1,0 +1,1 @@
+export { useSliderValues } from './hooks/sliderHook';
